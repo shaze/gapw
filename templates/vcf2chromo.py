@@ -7,7 +7,7 @@ from numpy import empty, array
 if len(sys.argv)==1:
     sys.argv = ["vcf2chromo.py", "$input", "$output"]
 
-EOL=unichr(10)
+EOL=chr(10)
 vcfname = sys.argv[1]
 out     = sys.argv[2]
 
